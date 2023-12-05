@@ -90,3 +90,23 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+/* Your existing CSS */
+
+/* Styling for the donate navigation link */
+nav ul li a {
+    color: #fff; /* Change the color to white or another contrasting color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold for better visibility */
+    padding: 8px 16px; /* Add padding for space around the text */
+    border: 2px solid transparent; /* Create an initial transparent border */
+    border-radius: 20px; /* Add rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition effect */
+}
+
+/* Change the background color and border color on hover or focus */
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #333; /* Change the background color on hover/focus */
+    border-color: #fff; /* Change the border color on hover/focus */
+}
