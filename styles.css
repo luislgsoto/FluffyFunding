@@ -20,6 +20,16 @@ body {
     text-align: justify;
 }
 
+/* Additional CSS for mobile devices */
+@media (max-width: 768px) {
+    /* Change text alignment to left for smaller screens */
+    .welcome p {
+        text-align: left;
+    }
+}
+
+/* Your existing CSS */
+
 header {
     background-color: #333;
     color: #fff;
@@ -30,25 +40,6 @@ header {
 h1 {
     margin: 0;
     font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 15px;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-    border-radius: 5px;
 }
 
 main {
