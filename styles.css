@@ -91,22 +91,36 @@ footer {
     margin: 0 auto;
 }
 
-/* Your existing CSS */
-
 /* Styling for the donate navigation link */
-nav ul li a {
-    color: #fff; /* Change the color to white or another contrasting color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make the text bold for better visibility */
-    padding: 8px 16px; /* Add padding for space around the text */
-    border: 2px solid transparent; /* Create an initial transparent border */
-    border-radius: 20px; /* Add rounded corners */
-    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition effect */
+nav ul li a.donate-link {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #4287f5; /* Change to blue color */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-/* Change the background color and border color on hover or focus */
-nav ul li a:hover,
-nav ul li a:focus {
-    background-color: #333; /* Change the background color on hover/focus */
-    border-color: #fff; /* Change the border color on hover/focus */
+nav ul li a.donate-link:hover,
+nav ul li a.donate-link:focus {
+    background-color: #0a5ac5; /* Darker shade of blue on hover/focus */
+    border-color: #fff; /* Change border color if needed */
+}
+
+/* Styling for the GoFundMe button */
+.gofundme-button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.gofundme-button:hover {
+    background-color: #45a049;
 }
